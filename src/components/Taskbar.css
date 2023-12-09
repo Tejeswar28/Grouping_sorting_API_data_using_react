@@ -1,0 +1,63 @@
+.card {
+    padding: 10px;
+    box-sizing: border-box;
+    border: silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 500px; /* Adjust the width based on your design */
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .header {
+    color:silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-image {
+  height:25%;
+  width:15%;
+  border-radius: 50%;
+  }
+  
+  .title {
+    color:black;
+    display: flex;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 1px;
+  
+  }
+  #bt1{
+    width:3px;
+    float:left;
+  }
+  .button {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+  }
+
+  
+  
+  .button-image {
+    width: 20px; /* Adjust the width based on your design */
+    height: 20px; /* Adjust the height based on your design */
+    border-radius: 50%;
+    float:left;
+  }
+  

@@ -1,0 +1,110 @@
+
+.maini{
+    background-color: blue;
+    overflow-x: scroll;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left:20%;
+    padding-left:17%;
+  }
+  
+  .dropdowns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .columns-container {
+    display: flex;
+    flex-direction: row; /* Display columns from left to right */
+    /* justify-content: flex-start; Align columns to the left */
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 20px; /* Add margin between columns */
+    margin-bottom: 20px; /* Add margin between rows */
+    max-width: 500px; /* Adjust the max-width based on your design */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    padding: 1px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .card {
+    padding: 10px;
+    box-sizing: border-box;
+    border: silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px; /* Adjust the width based on your design */
+    margin: 20px;
+    background-color: white;
+  }
+  
+  .header {
+    color:silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-image {
+  height:25%;
+  width:15%;
+  border-radius: 50%;
+  }
+  
+  .title {
+    color:black;
+    display: flex;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 1px;
+  
+  }
+  #bt1{
+    width:3px;
+    float:left;
+  }
+  .button {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+  }
+
+
+  .button-image {
+    width: 20px; /* Adjust the width based on your design */
+    height: 20px; /* Adjust the height based on your design */
+    border-radius: 50%;
+    float:left;
+  }
+  

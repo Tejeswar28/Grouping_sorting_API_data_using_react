@@ -1,0 +1,233 @@
+.maini{
+    /* max-height:100%; */
+    /* max-width: 100%; */
+    background:#e6e9f2;
+    /* overflow-x: scroll; */
+    padding-left:630px;
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    
+  }
+  
+  .dropdowns {
+    float:left;
+    margin-left:70px;
+    padding:20px;
+    width:300px;
+    margin-top:10px;
+    box-sizing: border-box;
+    border:silver;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index:-1;
+
+  }
+  
+  .columns-container {
+    display: flex;
+    flex-direction: row; /* Display columns from left to right */
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 20px; /* Add margin between columns */
+    margin-bottom: 20px; /* Add margin between rows */
+    max-width: 500px; /* Adjust the max-width based on your design */
+    height: 100%;
+  }
+  label{
+    font-size:19px;
+    color:silver;
+  }
+  .sorti{
+    float:right;
+    padding:3px;
+    width:120px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .groupi{
+    float:right;
+    padding:3px;
+    width:120px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .disp{
+   margin-left:10px;
+    float:left;
+    padding:7px;
+    background-color: #e6e9f2;;
+    width:100px;
+    text-align:left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top:10px;
+  }
+  .disp b{
+    border:0.5px ;
+  }
+ span{
+    font-weight: 700;
+ }
+ .plus{
+    float:right;
+ }
+  .arrow{
+    float:right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th,
+  td {
+    padding: 1px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .card {
+    padding: 10px;
+    box-sizing: border-box;
+    border: silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px; /* Adjust the width based on your design */
+    margin: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px silver;
+  }
+  
+  .header {
+    color:silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-image {
+  height:25%;
+  width:15%;
+  border-radius: 50%;
+  }
+  
+  .title {
+    color:black;
+    display: flex;
+    font-size:17px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+   
+  
+  }
+  #bt1{
+    width:3px;
+    float:left;
+  }
+  .button_1 {
+    max-width:8%;
+    flex: 1;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: white;
+  }
+  .button_2 {
+    flex: 1;
+    padding:5px;
+    max-width: 40%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color:white;
+  }
+  .button-image {
+    width: 20px; /* Adjust the width based on your design */
+    height: 20px; /* Adjust the height based on your design */
+    border-radius: 50%;
+    float:left;
+  }
+
+  .each_col{
+    color:black;
+    display: flex;
+    font-size:20px;
+    justify-content: space-around;
+    
+  }
+.each_col1{
+    margin-left: 250px;
+}
+.column-heading{
+    margin-left:25px;
+}
+.prio1{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* Tablet Styles */
+@media only screen and (max-width: 1024px) {
+    .maini {
+        padding-left: 300px;
+    }
+
+    .dropdowns {
+        margin-left: 10px;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .maini {
+        padding-left: 10px;
+    }
+
+    .dropdowns {
+        margin-left: 10px;
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .disp {
+        margin-left: 10px;
+        width: 80px; /* Adjust width for smaller screens */
+    }
+
+    .sorti,
+    .groupi {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
